@@ -30,6 +30,8 @@ The community edition does not include the full native iOS app, cloud speech, ch
 
 ## Help make it more useful
 
+[Rate your experience](https://github.com/vvchen1981-del/first-light-community/issues/new?template=review.yml): share an overall score, whether you would return, and one thing to improve. Reviews are public and require a GitHub account.
+
 You are welcome to use the site without a GitHub account. If you have one, [share a problem or suggestion in English or Chinese](https://github.com/vvchen1981-del/first-light-community/issues/new/choose). Tell us what you tried, what happened, and your browser/device. A clear report about a confusing button, awkward translation, or device voice can help as much as code.
 
 To share First Light, send someone the [reading link](https://vvchen1981-del.github.io/first-light-community/#read/JHN/1), [lessons](https://vvchen1981-del.github.io/first-light-community/#learn), or [gallery](https://vvchen1981-del.github.io/first-light-community/#art). A repository star is optional if you want to find the project again.

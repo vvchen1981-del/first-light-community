@@ -1,0 +1,57 @@
+name: Rate your experience / 评价使用体验
+description: Tell us what helped and what we should improve. 欢迎中英文评价。
+title: "[Review] "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public GitHub review and requires a GitHub account. English and Chinese are welcome. Please do not include private reading notes, backups, email addresses or passwords. 评价需要登录 GitHub，并会公开显示；请勿提交私人札记、备份、邮箱或密码。"
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Overall rating / 总体评分
+      options:
+        - "1 — Very difficult to use / 很难使用"
+        - "2 — Needs improvement / 需要较大改进"
+        - "3 — Okay / 一般"
+        - "4 — Useful / 好用"
+        - "5 — Very useful / 很有帮助"
+    validations:
+      required: true
+  - type: dropdown
+    id: return
+    attributes:
+      label: Would you use it again? / 是否愿意继续使用？
+      options:
+        - "Yes / 愿意"
+        - "Maybe / 还不确定"
+        - "No / 暂时不会"
+    validations:
+      required: true
+  - type: dropdown
+    id: feature
+    attributes:
+      label: What did you try? / 体验了哪些功能？
+      multiple: true
+      options:
+        - "Bible reading / 读经"
+        - "Read-aloud / 语音朗读"
+        - "Lessons / 学习"
+        - "Art gallery / 艺术赏析"
+        - "Bookmarks or sharing / 收藏或分享"
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What was useful? / 哪一点对你有帮助？
+      description: A specific moment or feature is more useful than a general compliment.
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What should we improve? / 最希望改进什么？
+      description: Tell us what was confusing, missing, or did not work. 欢迎直接指出问题。
+  - type: input
+    id: environment
+    attributes:
+      label: Device and browser / 设备与浏览器
+      placeholder: "e.g. iPhone Safari, Windows Chrome"
