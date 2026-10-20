@@ -1,14 +1,22 @@
-# First Light Community
+# First Light Community · Bible & Art
 
 **A free English and Chinese Bible reader with art and short lessons. No sign-up.**
 
-Read a chapter, look closely at a painting, or start with one question. Open the site on your phone or computer—there is nothing to install.
+Curious about the story behind a biblical painting? Start with *The Finding of Moses*, notice a detail, then open the passage that inspired it. Or go straight to a chapter and read at your own pace. It works in your browser on a phone or computer.
 
-**[Start reading →](https://vvchen1981-del.github.io/first-light-community/#read/JHN/1)** · [Explore 5 lessons](https://vvchen1981-del.github.io/first-light-community/#learn) · [Visit the art gallery](https://vvchen1981-del.github.io/first-light-community/#art)
+**[Try The Finding of Moses →](https://vvchen1981-del.github.io/first-light-community/?lang=en#art/moses)** · [Read the Bible](https://vvchen1981-del.github.io/first-light-community/?lang=en#read/JHN/1) · [Try a short lesson](https://vvchen1981-del.github.io/first-light-community/?lang=en#learn/beginning)
 
 [中文介绍](README.zh-CN.md) · [Report a problem or share an idea](https://github.com/vvchen1981-del/first-light-community/issues/new/choose)
 
-![Bible reading and art in First Light Community](docs/preview-desktop.png)
+[![Bible reading and art in First Light Community. Open the live app.](docs/preview-desktop.png)](https://vvchen1981-del.github.io/first-light-community/?lang=en#home)
+
+## Your first few minutes
+
+1. **Look:** open [The Finding of Moses](https://vvchen1981-del.github.io/first-light-community/?lang=en#art/moses). Use the looking prompt to notice a detail.
+2. **Read:** follow the passage link to Exodus 2. Compare what the painting shows with what the text says.
+3. **Keep or share:** save the artwork to revisit it, or use **Share this page** to send the same page and language to a friend.
+
+Prefer a text-first start? [Begin with one chapter](https://vvchen1981-del.github.io/first-light-community/?lang=en#learn/beginning) offers a short reading and a question with feedback. You can explore without a GitHub account.
 
 ## Find a place to begin
 
@@ -37,6 +45,16 @@ You are welcome to use the site without a GitHub account. If you have one, [shar
 To share First Light, send someone the [reading link](https://vvchen1981-del.github.io/first-light-community/#read/JHN/1), [lessons](https://vvchen1981-del.github.io/first-light-community/#learn), or [gallery](https://vvchen1981-del.github.io/first-light-community/#art). A repository star is optional if you want to find the project again.
 
 See [Contributing](CONTRIBUTING.md) for content, translation, accessibility, and code contributions. Please leave private reading notes, backups, passwords, and tokens out of public issues and pull requests.
+
+## Share a place to start
+
+Know someone interested in biblical art, reading in two languages, or a simple Bible reader? Send them a specific page they might enjoy:
+
+> What do you notice first in *The Finding of Moses*? First Light pairs the painting with its story and a passage from Exodus. It is free to explore in English or Chinese, with no account needed.
+>
+> [Open the painting and story](https://vvchen1981-del.github.io/first-light-community/?lang=en#art/moses)
+
+[English and Chinese sharing text](docs/SHARE.md) · [What this edition offers](https://github.com/vvchen1981-del/first-light-community/releases) · [How we evaluate improvements](docs/ADOPTION.md)
 
 ## Run locally
 

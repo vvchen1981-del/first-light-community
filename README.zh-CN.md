@@ -2,13 +2,21 @@
 
 **免费的中英文圣经阅读与艺术学习小站，无需注册。**
 
-读一章经文，停下来看看画，或从一个问题开始。手机和电脑都可以直接打开，无需安装。
+看一幅圣经名画时，你是否也想知道画里发生了什么？可以从《发现摩西》开始，观察一个细节，再打开它对应的经文。也可以直接选一章，按自己的节奏读。手机和电脑都能在浏览器中使用。
 
-**[开始阅读 →](https://vvchen1981-del.github.io/first-light-community/#read/JHN/1)** · [探索 5 个课程](https://vvchen1981-del.github.io/first-light-community/#learn) · [进入艺术画廊](https://vvchen1981-del.github.io/first-light-community/#art)
+**[从《发现摩西》开始 →](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#art/moses)** · [直接读经](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#read/JHN/1) · [试一节短课](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#learn/beginning)
 
 [English](README.md) · [反馈问题或建议](https://github.com/vvchen1981-del/first-light-community/issues/new/choose)
 
 ![初见社区版阅读与艺术界面](docs/preview-desktop.png)
+
+## 第一次打开，可以这样用
+
+1. **先看画：**打开[《发现摩西》](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#art/moses)，跟着观察提示，找一个引起你注意的细节。
+2. **再读故事：**点击作品中的经文链接，进入《出埃及记》第 2 章，比较画面与原文。
+3. **留下收获：**收藏画作，方便下次继续；也可以点“分享这一页”，把相同内容和语言的页面发给朋友。
+
+如果想先从文字入门，试试[“从一章开始”](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#learn/beginning)：读一小段，做一道有反馈的理解题。使用网站不需要 GitHub 账号。
 
 ## 可以做什么
 
@@ -30,11 +38,21 @@
 
 ## 让它更好用
 
+[评价使用体验](https://github.com/vvchen1981-del/first-light-community/issues/new?template=review.yml)：告诉我们是否好用、愿不愿意再来，以及最希望改进的一点。评价需登录 GitHub，并会公开显示。
+
 无需 GitHub 账号也能使用网站。若你有账号，欢迎用中文或英文[反馈问题或建议](https://github.com/vvchen1981-del/first-light-community/issues/new/choose)：说明尝试了什么、发生了什么，以及设备和浏览器。按钮难找、译文别扭、声音不可用，都值得反馈。
 
-也可以直接把[阅读入口](https://vvchen1981-del.github.io/first-light-community/#read/JHN/1)、[课程](https://vvchen1981-del.github.io/first-light-community/#learn)或[画廊](https://vvchen1981-del.github.io/first-light-community/#art)分享给朋友。想方便以后找到项目，可以选择点 Star；使用网站没有这个要求。
+也可以直接把[阅读入口](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#read/JHN/1)、[课程](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#learn)或[画廊](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#art)分享给朋友。想方便以后找到项目，可以选择点 Star；使用网站没有这个要求。
 
 贡献翻译、来源核对、无障碍反馈或代码，请先看[贡献指南](CONTRIBUTING.md)。不要把个人备份、私密阅读笔记、密码或密钥放进公开问题或代码提交。
+
+## 分享给可能感兴趣的人
+
+> 《发现摩西》画的是什么？初见把这幅画的背景、观察提示和《出埃及记》中的故事放在一起。可以先看画，再读经文，也可以切换英文慢慢读。免费，无需注册。
+>
+> [打开《发现摩西》](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#art/moses)
+
+[可直接使用的中英文介绍](docs/SHARE.md) · [版本介绍](https://github.com/vvchen1981-del/first-light-community/releases) · [我们如何评估改进](docs/ADOPTION.md)
 
 ## 本机启动
 
