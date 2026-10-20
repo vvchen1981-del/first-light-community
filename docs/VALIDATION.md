@@ -1,6 +1,6 @@
 # Community 1.0.0 validation
 
-Date: 2026-10-20. This is a local, static-web release candidate, not evidence of a live GitHub Pages deployment or an iOS release.
+Date: 2026-10-20. The test evidence below was collected locally before publication. It does not establish iOS acceptance. Subsequent publishing uses the public repository and workflow linked at the end of this document.
 
 ## Passed
 
@@ -18,9 +18,16 @@ The browser reported installed Chinese and English OS voices. Real speech reques
 
 Before recommending read-aloud publicly, check Chinese and English on ordinary user-facing Chrome, Edge and Safari, including iPhone/Android where available: start, pause/resume, stop, sequential verses, navigation interruption, and the absence of overlapping sound. This app uses device voices, not the original app's cloud TTS.
 
-## Publication boundaries
+## Boundaries of the original local test run
 
-- GitHub Actions is prepared but has not run on a remote repository.
-- No repository, live demo URL, native app or TestFlight build was published in this task.
+- At the time of that local test run, GitHub Actions had not run remotely and no repository or live demo had been published.
+- No native app or TestFlight build was published.
 - Rights records were rechecked against linked eBible and NGA pages on the review date. This does not constitute jurisdiction-wide legal clearance for every later use.
 - No claim of service-worker offline installation, accounts, cloud sync or data migration from the full app.
+
+## Subsequent public deployment
+
+- Repository: https://github.com/vvchen1981-del/first-light-community
+- Website: https://vvchen1981-del.github.io/first-light-community/
+- Actual build and deployment records: https://github.com/vvchen1981-del/first-light-community/actions/workflows/pages.yml
+- The workflow runs content tests and a static build before deploying. This remote check is distinct from the browser interaction tests and from actual device audio listening.

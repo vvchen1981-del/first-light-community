@@ -3,6 +3,10 @@
 A quiet place to read the Bible, explore its stories through art, and keep what matters.
 一个免费的中英文圣经阅读与艺术学习小站。无需注册，打开网页即可使用。
 
+**[Open the web app / 直接开始使用](https://vvchen1981-del.github.io/first-light-community/)**
+
+[![Verify and deploy Pages](https://github.com/vvchen1981-del/first-light-community/actions/workflows/pages.yml/badge.svg)](https://github.com/vvchen1981-del/first-light-community/actions/workflows/pages.yml)
+
 **Independent static edition / 独立静态简版** — no API keys, no backend, no runtime dependencies.
 This repository is not the full native iOS app and does not include its cloud speech, accounts or subscriptions.
 
@@ -53,7 +57,7 @@ All app resources use relative paths, and reading links use hash routes. Both a 
 
 GitHub's current workflow guide: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
 
-This delivery does not create a repository or publish a live site automatically. GitHub availability and loading performance vary by network and region.
+The original public repository is https://github.com/vvchen1981-del/first-light-community and its Pages address is https://vvchen1981-del.github.io/first-light-community/. The status badge above links to the actual deployment runs. Forks must enable their own Pages deployment. GitHub availability and loading performance vary by network and region.
 
 ## Project map
 
