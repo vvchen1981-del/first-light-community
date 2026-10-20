@@ -1,0 +1,12 @@
+[
+  {
+    "file": "/fonts/latin.woff",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond%5Bwght%5D.ttf",
+    "sourceSha256": "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027",
+    "sha256": "cd3939f33a7d3183d80b13b80dae607fd029a33f3c067d8ff10ec53db54c5008",
+    "bytes": 151748,
+    "derivativeFamily": "First Light Garamond",
+    "license": "SIL OFL 1.1",
+    "subset": "Codepoints in shipped scripture/editorial/UI plus basic Latin; missing user-entered characters use system fallback."
+  }
+]

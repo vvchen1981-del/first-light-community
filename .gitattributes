@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preserve publisher-derived and licensed resource bytes across all platforms.
+data/bible/** -text
+assets/fonts/** -text
+assets/art/** -text

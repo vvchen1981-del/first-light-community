@@ -1,0 +1,174 @@
+[
+  {
+    "id": "annunciation",
+    "title": {
+      "zh-Hans": "天使报喜",
+      "zh-Hant": "天使報喜",
+      "en": "The Annunciation"
+    },
+    "artist": "Fra Filippo Lippi",
+    "date": "c. 1435–1440",
+    "institution": "National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/12133-annunciation",
+    "imageSource": "https://api.nga.gov/iiif/663949e0-a99e-497e-8f26-b337eaaea9de/full/%21800%2C800/0/default.jpg",
+    "license": "CC0-1.0",
+    "licenseURL": "https://www.nga.gov/terms-and-notices",
+    "reviewedAt": "2026-10-20",
+    "rightsEvidence": "Museum object page marks this image free and in the public domain; NGA Open Access policy releases eligible images under CC0. Rechecked 2026-10-20.",
+    "sha256": "1c22a06b83b4629a8819da0c826ec4f732facf86eb2edd6cbbb044699aac177c",
+    "bytes": 115752,
+    "objectId": "12133",
+    "medium": "tempera on panel",
+    "classification": "Painting",
+    "dimensions": "overall: 100 x 161 cm (39 3/8 x 63 3/8 in.)",
+    "creditLine": "Samuel H. Kress Collection",
+    "accessionNumber": "1943.4.35",
+    "image": "assets/art/annunciation.jpg",
+    "description": {
+      "zh-Hans": "天使向马利亚报信。画中两人隔着建筑立柱相对而跪，呼应《路加福音》1章26—38节。",
+      "en": "An angel brings news to Mary. The two kneeling figures face each other across an architectural division. Read Luke 1:26–38 alongside the painting."
+    },
+    "context": {
+      "zh-Hans": "利皮约于1435—1440年以蛋彩绘于木板。文艺复兴时期的室内空间让古老故事变得亲近；它不是圣经时代建筑的记录。",
+      "en": "Lippi painted this tempera panel around 1435–1440. Its Renaissance interior brings the story into a familiar setting, rather than documenting biblical architecture."
+    },
+    "observe": {
+      "zh-Hans": "编辑观察：先沿天使的视线寻找马利亚，再看鸽子、光线与手中书本。画家如何用空间把两个人既分开又连接？",
+      "en": "Looking prompt: follow the angel’s gaze to Mary, then find the dove, rays and book. How does the space both divide and connect the figures?"
+    },
+    "reference": {
+      "book": "LUK",
+      "chapter": 1,
+      "verse": 26
+    }
+  },
+  {
+    "id": "magi",
+    "title": {
+      "zh-Hans": "三王来朝",
+      "zh-Hant": "三王來朝",
+      "en": "The Adoration of the Magi"
+    },
+    "artist": "Fra Angelico / Fra Filippo Lippi",
+    "date": "c. 1440–1460",
+    "institution": "National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/41581-adoration-magi",
+    "imageSource": "https://api.nga.gov/iiif/bdb650b1-c025-4f56-8fb3-0d781346fc5f/full/%21800%2C800/0/default.jpg",
+    "license": "CC0-1.0",
+    "licenseURL": "https://www.nga.gov/terms-and-notices",
+    "reviewedAt": "2026-10-20",
+    "rightsEvidence": "Museum object page marks this image free and in the public domain; NGA Open Access policy releases eligible images under CC0. Rechecked 2026-10-20.",
+    "sha256": "a89901821093093cc2f26f785bf6856ae2b720c0b62dd15528dfb07fb92ae5f6",
+    "bytes": 191498,
+    "objectId": "41581",
+    "medium": "tempera on poplar panel",
+    "classification": "Painting",
+    "dimensions": "overall (diameter): 137.3 cm (54 1/16 in.)\r\nframed: 188 x 171.5 x 12.7 cm (74 x 67 1/2 x 5 in.)",
+    "creditLine": "Samuel H. Kress Collection",
+    "accessionNumber": "1952.2.2",
+    "image": "assets/art/magi.jpg",
+    "description": {
+      "zh-Hans": "人群绕过山丘和建筑，来到马利亚与婴孩面前。《马太福音》2章1—12节记载博士献礼；经文没有给出博士的人数。",
+      "en": "A procession winds toward Mary and the infant. Matthew 2:1–12 recounts the visitors’ gifts, but does not specify how many visitors there were."
+    },
+    "context": {
+      "zh-Hans": "这幅约1440—1460年的圆形蛋彩画由安杰利科开始、利皮完成。馆方将它与佛罗伦萨当时纪念博士来访的游行文化联系起来。",
+      "en": "Begun by Fra Angelico and completed by Lippi around 1440–1460, this circular tempera painting relates to Florence’s contemporary celebrations of the Magi, according to the museum."
+    },
+    "observe": {
+      "zh-Hans": "编辑观察：从前景的献礼者向远处追踪队伍。圆形边界、弯曲道路和多个人群，怎样让一个安静的相遇变成公共庆典？",
+      "en": "Looking prompt: trace the procession from the gift bearers into the distance. How do the round frame, winding route and crowds turn a quiet encounter into a public celebration?"
+    },
+    "reference": {
+      "book": "MAT",
+      "chapter": 2,
+      "verse": 1
+    }
+  },
+  {
+    "id": "moses",
+    "title": {
+      "zh-Hans": "发现摩西",
+      "zh-Hant": "發現摩西",
+      "en": "The Finding of Moses"
+    },
+    "artist": "Veronese",
+    "date": "c. 1581/1582",
+    "institution": "National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/45-finding-moses",
+    "imageSource": "https://api.nga.gov/iiif/7ef08b06-e4ff-49e5-8c13-f79dd0b1a872/full/%21800%2C800/0/default.jpg",
+    "license": "CC0-1.0",
+    "licenseURL": "https://www.nga.gov/terms-and-notices",
+    "reviewedAt": "2026-10-20",
+    "rightsEvidence": "Museum object page marks this image free and in the public domain; NGA Open Access policy releases eligible images under CC0. Rechecked 2026-10-20.",
+    "sha256": "0dfb2eda304230ea88b7c61c1d3721ccd0b3ace2c69bc43d7b634cdc930a1e02",
+    "bytes": 162646,
+    "objectId": "45",
+    "medium": "oil on canvas",
+    "classification": "Painting",
+    "dimensions": "overall: 58 x 44.5 cm (22 13/16 x 17 1/2 in.)\r\nframed: 81.12 × 67.95 × 7.3 cm (31 15/16 × 26 3/4 × 2 7/8 in.)",
+    "creditLine": "Andrew W. Mellon Collection",
+    "accessionNumber": "1937.1.38",
+    "image": "assets/art/moses.jpg",
+    "description": {
+      "zh-Hans": "法老的女儿发现婴孩摩西，并怜悯他。请结合《出埃及记》2章1—10节，辨认篮子、婴孩与围绕他的众人。",
+      "en": "Pharaoh’s daughter discovers the infant Moses and takes pity on him. Read Exodus 2:1–10, then locate the basket, baby and gathering figures."
+    },
+    "context": {
+      "zh-Hans": "委罗内塞约于1581—1582年绘制此画。馆方指出，他以当时的华服和宫廷随从重新想象故事；这些服饰不是古埃及的考古复原。",
+      "en": "Painted by Veronese around 1581–1582, the scene reimagines the story through contemporary finery and a courtly entourage, as the museum explains. The costumes are not an archaeological reconstruction of ancient Egypt."
+    },
+    "observe": {
+      "zh-Hans": "编辑观察：衣料的光泽很醒目，但视线和手势都指向婴孩。你的目光先落在哪里，又如何回到故事中心？",
+      "en": "Looking prompt: the rich fabrics attract attention, while glances and gestures lead toward the baby. Where does your eye begin, and how does it return to the story’s center?"
+    },
+    "reference": {
+      "book": "EXO",
+      "chapter": 2,
+      "verse": 1
+    }
+  },
+  {
+    "id": "galilee",
+    "title": {
+      "zh-Hans": "加利利海边的基督",
+      "zh-Hant": "加利利海邊的基督",
+      "en": "Christ at the Sea of Galilee"
+    },
+    "artist": "Anonymous artist, probably Lambert Sustris (attribution uncertain)",
+    "date": "c. 1570s",
+    "institution": "National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/41637-christ-sea-galilee",
+    "imageSource": "https://api.nga.gov/iiif/5ff9987b-cec6-41ec-bc6f-8732e0c6ca68/full/%21800%2C800/0/default.jpg",
+    "license": "CC0-1.0",
+    "licenseURL": "https://www.nga.gov/terms-and-notices",
+    "reviewedAt": "2026-10-20",
+    "rightsEvidence": "Museum object page marks this image free and in the public domain; NGA Open Access policy releases eligible images under CC0. Rechecked 2026-10-20.",
+    "sha256": "c92d36869b21c7c407cb5d74b651cbcdacae084c3109d41048af57653a1507eb",
+    "bytes": 116624,
+    "objectId": "41637",
+    "medium": "oil on canvas",
+    "classification": "Painting",
+    "dimensions": "overall: 117.1 x 169.2 cm (46 1/8 x 66 5/8 in.)\r\nframed: 155.3 x 207 cm (61 1/8 x 81 1/2 in.)",
+    "creditLine": "Samuel H. Kress Collection",
+    "accessionNumber": "1952.5.27",
+    "image": "assets/art/galilee.jpg",
+    "description": {
+      "zh-Hans": "复活后的耶稣在岸边向捕鱼的门徒显现。馆方将此画联系到《约翰福音》21章1—13节；不要将它与耶稣履海的另一段故事混为一谈。",
+      "en": "The risen Christ appears to the disciples as they fish. The museum connects this scene to John 21:1–13; it should not be conflated with the separate story of Jesus walking on water."
+    },
+    "context": {
+      "zh-Hans": "作品约作于1570年代。馆方认为作者可能是兰伯特·苏斯特里斯，但尚不能确定；它曾被归于丁托列托。",
+      "en": "Dating to about the 1570s, the painting is probably by Lambert Sustris, though the attribution remains uncertain. It was formerly attributed to Tintoretto."
+    },
+    "observe": {
+      "zh-Hans": "编辑观察：近岸人物与远处小船被大片水面隔开。观察波浪、天光和手势如何跨过这段距离，让相认成为画面的重点。",
+      "en": "Looking prompt: a broad stretch of water separates Christ from the boat. Notice how waves, light and gestures bridge that distance and draw attention to recognition."
+    },
+    "reference": {
+      "book": "JHN",
+      "chapter": 21,
+      "verse": 1
+    }
+  }
+]

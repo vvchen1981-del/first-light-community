@@ -1,0 +1,14 @@
+{
+  "name": "first-light-community",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A bilingual, static Bible reading and art study companion.",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

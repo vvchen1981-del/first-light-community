@@ -1,0 +1,566 @@
+[
+  {
+    "path": "data/bible/catalog.json",
+    "sha256": "ab4061dadee398d29fbb09d573a51c06052e9526cc5532b098534c35d3ce9a47"
+  },
+  {
+    "path": "data/bible/zh-Hans/GEN.json",
+    "sha256": "fa5f1c78b328890ff3d2f412f1e73da466093ebc74a1290ddfe631d178de38a4"
+  },
+  {
+    "path": "data/bible/zh-Hans/EXO.json",
+    "sha256": "17aeba1998053103f8bff4bd5edbdf864a7b78d1397834fbe7648d0e69f79f6f"
+  },
+  {
+    "path": "data/bible/zh-Hans/LEV.json",
+    "sha256": "dbf97e68e502c03e58bfae13165d35361d0a74976ff187f0e3f542662b7fb3d6"
+  },
+  {
+    "path": "data/bible/zh-Hans/NUM.json",
+    "sha256": "ab0e391906d78b12bab327886dd3d8822008bf5dd942c6bc5009b5feacbe401a"
+  },
+  {
+    "path": "data/bible/zh-Hans/DEU.json",
+    "sha256": "16c0688eaf7a20962fafeda3ec7ed4c7616caef77b7dd9614b51314ee223c5bf"
+  },
+  {
+    "path": "data/bible/zh-Hans/JOS.json",
+    "sha256": "03733a47fbadbfa7a6260153665c6e8b3180e0b0f3860bb78f3e5cf07f365fbe"
+  },
+  {
+    "path": "data/bible/zh-Hans/JDG.json",
+    "sha256": "bdcee95b26dd6babb2fa3326e0e040ce37f2dbda406928ee77e38920d24f141c"
+  },
+  {
+    "path": "data/bible/zh-Hans/RUT.json",
+    "sha256": "dc280006d451b1d1f71407cc82803cba5b42d56d2df7e46c3f04504fc6f4e297"
+  },
+  {
+    "path": "data/bible/zh-Hans/1SA.json",
+    "sha256": "3af4d252808286f331da8ff3c13a716a38f64771014ee97e743f5e9d875493ac"
+  },
+  {
+    "path": "data/bible/zh-Hans/2SA.json",
+    "sha256": "47b60db6a13ddea4d6b248ff97215906c7fb9a9ed5eb3c181fb5c83165ab6a4d"
+  },
+  {
+    "path": "data/bible/zh-Hans/1KI.json",
+    "sha256": "d8d095411b63c8d913ba6bf9ee778117799b7a8735c1d8b5fe5491da0e2448b9"
+  },
+  {
+    "path": "data/bible/zh-Hans/2KI.json",
+    "sha256": "5a2f3b60535e077c75584f05b7177b64f0d2e560f5362c07bcf6b21ad899c551"
+  },
+  {
+    "path": "data/bible/zh-Hans/1CH.json",
+    "sha256": "573a99da69c733e94b16b64c6b6eba28db4f33a3f9dca7fc3a57486189019c3a"
+  },
+  {
+    "path": "data/bible/zh-Hans/2CH.json",
+    "sha256": "6816eec37258a551075afdba5be11027b7ff13f1736c38ada340b13ab1c026c3"
+  },
+  {
+    "path": "data/bible/zh-Hans/EZR.json",
+    "sha256": "10ceead9f94cb40306427f28aacb4eb2714cb99fb118c116366c971026c54cff"
+  },
+  {
+    "path": "data/bible/zh-Hans/NEH.json",
+    "sha256": "559a0fdcfc503318a3de10f5a07a552e6ad3d777c1384ac4218584d99055dfa0"
+  },
+  {
+    "path": "data/bible/zh-Hans/EST.json",
+    "sha256": "2b6844c2b330dcf6da8c18f7cc14d542b75f4f5bb73c1a4d0d66ed5680f7b156"
+  },
+  {
+    "path": "data/bible/zh-Hans/JOB.json",
+    "sha256": "26498a0a5e146f31cdb94a2f6a002152e212232fb6c0f89b8fdb93a8a6fbdf81"
+  },
+  {
+    "path": "data/bible/zh-Hans/PSA.json",
+    "sha256": "f013aaefb68e13d0c5723c6f229d1ff9bb60401456eb0b90833e34377f32a4af"
+  },
+  {
+    "path": "data/bible/zh-Hans/PRO.json",
+    "sha256": "bc808bfcf8935b5b86ad5f0a643e7751b4d56269d26d9e280a0977602e7943a1"
+  },
+  {
+    "path": "data/bible/zh-Hans/ECC.json",
+    "sha256": "cace820a384f18fbc0eea23e9784b35d38f51b697610727a9e6eb13b55ab38d7"
+  },
+  {
+    "path": "data/bible/zh-Hans/SNG.json",
+    "sha256": "2cb238599bf0a357be096ff8110bdc943c58338a2c007cdeb0dd4e1e0251a221"
+  },
+  {
+    "path": "data/bible/zh-Hans/ISA.json",
+    "sha256": "bc31e75d474d5b099453efe2464306efe5e9909a466a1a852cd406d7c509c9a5"
+  },
+  {
+    "path": "data/bible/zh-Hans/JER.json",
+    "sha256": "c77754998921dbbadaf2b08e2a7e696e5a1294aa52f25a860ad26621ace0d163"
+  },
+  {
+    "path": "data/bible/zh-Hans/LAM.json",
+    "sha256": "6ce52c9851afe426c7d437a7119d24d6c4c26d8d33344fbb42e38756ca230599"
+  },
+  {
+    "path": "data/bible/zh-Hans/EZK.json",
+    "sha256": "732e6814907cdc531fa30034ecfabd23bdf12134eac35cb3531d81d519cfdd3a"
+  },
+  {
+    "path": "data/bible/zh-Hans/DAN.json",
+    "sha256": "b97bb9f939b3a8627eccc7cea54e11311c80e7f825386a992cbcc2ad9c293f61"
+  },
+  {
+    "path": "data/bible/zh-Hans/HOS.json",
+    "sha256": "8554dc20d96370ffb9587a6bb9ed4d6ef912e1801cc6b8b2693079bf830f7d24"
+  },
+  {
+    "path": "data/bible/zh-Hans/JOL.json",
+    "sha256": "a15aa4b4b94372b44169f2d8715f8e25bbf8428ed019df58224106f72736e0a6"
+  },
+  {
+    "path": "data/bible/zh-Hans/AMO.json",
+    "sha256": "99a156986c1ae96786c01baf68a52afe55e1cf09e629e14228c9777488741f26"
+  },
+  {
+    "path": "data/bible/zh-Hans/OBA.json",
+    "sha256": "541f4c8041ee9156c70070f9fc8d336b0f3b17b34384be3a85754ec6aed5cb2e"
+  },
+  {
+    "path": "data/bible/zh-Hans/JON.json",
+    "sha256": "9eee10e1c0fca7cdf0d1fbcbb44f2e70e69a574626a46efc1c85629bd5c7d9bd"
+  },
+  {
+    "path": "data/bible/zh-Hans/MIC.json",
+    "sha256": "c9f9d99dcc70867f15eae067a6265042006fe1b6e9cb799443a28822aa1e71aa"
+  },
+  {
+    "path": "data/bible/zh-Hans/NAM.json",
+    "sha256": "6a3168fb645af4132e913ae4d05edef1af57662abb65096d5148d46d482637bc"
+  },
+  {
+    "path": "data/bible/zh-Hans/HAB.json",
+    "sha256": "740d2ebb2fa6e059e48fc5c3b0919fefa8ae4e3248e113eca5d6c6338e5aa817"
+  },
+  {
+    "path": "data/bible/zh-Hans/ZEP.json",
+    "sha256": "09b295c7f591215174e691b30665e81d1fbc4065f686fc962bde2e3a137a08bd"
+  },
+  {
+    "path": "data/bible/zh-Hans/HAG.json",
+    "sha256": "289e44fa562bc057529b09ab196f3a03842440f31e5725a34cbb6fa841bfc7f4"
+  },
+  {
+    "path": "data/bible/zh-Hans/ZEC.json",
+    "sha256": "20dbf87d7e2385228934f93aa94a038ffad0e33171a878e377dbe635feab363f"
+  },
+  {
+    "path": "data/bible/zh-Hans/MAL.json",
+    "sha256": "fb796b2d7f73d7bf0cb4dd1f858ff26e722f1cdcb310d148d3e23cfbc9d0e463"
+  },
+  {
+    "path": "data/bible/zh-Hans/MAT.json",
+    "sha256": "45e18b8196c5b89b4e28fdba41e2927b1f66afb8d00669736a8381d3d56e6e4e"
+  },
+  {
+    "path": "data/bible/zh-Hans/MRK.json",
+    "sha256": "8a4fdb48a66389149b428d9c0a4f3e5f3fb63cfa24d9ff8c3103bcaed9ce9543"
+  },
+  {
+    "path": "data/bible/zh-Hans/LUK.json",
+    "sha256": "9af07d767b127142455cbc40f1b0ee3105ffdf4ee2beb1163766a1fbf0c997c7"
+  },
+  {
+    "path": "data/bible/zh-Hans/JHN.json",
+    "sha256": "63d2b56825c737ff7583b924b4455d3a9ac9645d99494c4ca96ad8cb820c05f9"
+  },
+  {
+    "path": "data/bible/zh-Hans/ACT.json",
+    "sha256": "eec72978d07f494dae49c7ce4a00aba8a821282459839caac52016a2e3991d2f"
+  },
+  {
+    "path": "data/bible/zh-Hans/ROM.json",
+    "sha256": "21453e101d990334ab4f6668ed1caccfde1377ce429bb52875703f6bb5fe497b"
+  },
+  {
+    "path": "data/bible/zh-Hans/1CO.json",
+    "sha256": "42cc6b829456f6939eefdbd0f78476cf640e481c8272ea38a452c332c828b502"
+  },
+  {
+    "path": "data/bible/zh-Hans/2CO.json",
+    "sha256": "493c9b3d642536be1aae10e26c9cff72ecc6b1ef226f96b001e3e728b460608d"
+  },
+  {
+    "path": "data/bible/zh-Hans/GAL.json",
+    "sha256": "600f90d92ed47213bc5a579be3ad46fd286ba5b322d3014b750dfe9078cd8e39"
+  },
+  {
+    "path": "data/bible/zh-Hans/EPH.json",
+    "sha256": "3bf063346031bc23b2e321dff941531e65c6f4ae325ce7747c60d45d7bd504a6"
+  },
+  {
+    "path": "data/bible/zh-Hans/PHP.json",
+    "sha256": "a3851e0bb2b328a01d06347c84a7df26ef45b71c32b802ad6eae14d2dcb8e2d2"
+  },
+  {
+    "path": "data/bible/zh-Hans/COL.json",
+    "sha256": "30b107b2ea00d17c7fd2ab99f57b138f3183f6d9bada0f96e6ff8423a72fa101"
+  },
+  {
+    "path": "data/bible/zh-Hans/1TH.json",
+    "sha256": "5c9536d445cf2cfa987a0a617ca5e2c808e0c11e3d6d1b8ff6febe4024d69ea0"
+  },
+  {
+    "path": "data/bible/zh-Hans/2TH.json",
+    "sha256": "95d0e984139b0ea194993f6e39c260cc93405537c89c6df141ec0dc94bcd4012"
+  },
+  {
+    "path": "data/bible/zh-Hans/1TI.json",
+    "sha256": "763555be8feedd00a8bc5de1fe57eecaa47d493cd5830fd4d8396914d906d95f"
+  },
+  {
+    "path": "data/bible/zh-Hans/2TI.json",
+    "sha256": "35c65666e093e902384f7780480164c8774436f1841fe4b55df35134c5590128"
+  },
+  {
+    "path": "data/bible/zh-Hans/TIT.json",
+    "sha256": "02df33a8641e8d1c446f68dd2fa01d1c54c3249c88d650dfe950d8418e834d1f"
+  },
+  {
+    "path": "data/bible/zh-Hans/PHM.json",
+    "sha256": "10fbb112a6dc20a1067cd23f66b7f90030f0a71452daba55fc37cf21c8f2ca0c"
+  },
+  {
+    "path": "data/bible/zh-Hans/HEB.json",
+    "sha256": "d57c9a25f5eded0a157523d7e2c9692818f8f6b10125a3f6e21070f8152a62a0"
+  },
+  {
+    "path": "data/bible/zh-Hans/JAS.json",
+    "sha256": "ffdcb623ac37395956459084bedfa246f4c56de7980adf87e879f88e198f1aed"
+  },
+  {
+    "path": "data/bible/zh-Hans/1PE.json",
+    "sha256": "4acd6bab136b032f6576e74393d43d8ca7874acb89ace39ce4e69bee7b7ba3e4"
+  },
+  {
+    "path": "data/bible/zh-Hans/2PE.json",
+    "sha256": "dd31bdd9f122106fa8b620ff8dd36129d53db0b4b5c8b961c12129f183106827"
+  },
+  {
+    "path": "data/bible/zh-Hans/1JN.json",
+    "sha256": "f9aaf54e4a93ef46fc6df18ace31c1d21bd297291af85cf720107e28eec2bd70"
+  },
+  {
+    "path": "data/bible/zh-Hans/2JN.json",
+    "sha256": "04f62cbc323faaeca116aaec782e7cc5fe96700883e2ab3ea65a4b6fc1c64418"
+  },
+  {
+    "path": "data/bible/zh-Hans/3JN.json",
+    "sha256": "d0b700b08ce1e6199ab429e313b803045872a6160b331f4152b1d9a5a0315c41"
+  },
+  {
+    "path": "data/bible/zh-Hans/JUD.json",
+    "sha256": "f74a4e5e4a8e76ecce9149d656ef34406e217f09d2721da3d8706e5a2d41f52d"
+  },
+  {
+    "path": "data/bible/zh-Hans/REV.json",
+    "sha256": "cb742cfdc9a1362bf097c682eb0546970ccda3cf4c1090e2716957be5e00520e"
+  },
+  {
+    "path": "data/bible/en/GEN.json",
+    "sha256": "1ab42f1b6956165bfdfe5c2e46591f75981704e59e299a01d39b57d85911c6fa"
+  },
+  {
+    "path": "data/bible/en/EXO.json",
+    "sha256": "cc6953ea549bca8cdf5b9ff19f5f6a20add8729143dbf951e3e78ebf45062b9e"
+  },
+  {
+    "path": "data/bible/en/LEV.json",
+    "sha256": "3ca83e16fef9894df3c15b63ec9d45c0a2b76cc95a087fddf3a1c9286b2b6a0c"
+  },
+  {
+    "path": "data/bible/en/NUM.json",
+    "sha256": "82d5032184d60108f05bcbd4ecfb1a23507d20b6a8228ae872bfc8688b7565f5"
+  },
+  {
+    "path": "data/bible/en/DEU.json",
+    "sha256": "b5ff7f7bf820f6424760b0892043ce49779537732e8ef95e9c51567e057ca157"
+  },
+  {
+    "path": "data/bible/en/JOS.json",
+    "sha256": "9c43c3ed25aabaa3e72ddc041439c0ab8b5afe5bff8e5a4b73d6c66bc033ca6c"
+  },
+  {
+    "path": "data/bible/en/JDG.json",
+    "sha256": "0d0850a31d1c84103c315750dd8323625987fdddd0a6e2ae7f922ba582d41531"
+  },
+  {
+    "path": "data/bible/en/RUT.json",
+    "sha256": "94276e5757355e51ec7b07ee4797a3b75df57d9005089303fc66267b7891effa"
+  },
+  {
+    "path": "data/bible/en/1SA.json",
+    "sha256": "8fc9e4779a8e1d82881adfce32b50ec24751f995b5102a49c5658cbf8e649a30"
+  },
+  {
+    "path": "data/bible/en/2SA.json",
+    "sha256": "8bfb07eb355dddbee189f75c00dc8ad3b3d254163defa592dfc78415e1995af0"
+  },
+  {
+    "path": "data/bible/en/1KI.json",
+    "sha256": "b15defab6897887b2220989feacc42cce8e31230321689012dea8530ff36bba7"
+  },
+  {
+    "path": "data/bible/en/2KI.json",
+    "sha256": "80e0eb5f60bb6d2612ce223ae91604af4302407f32a6d42e522514f7dc4633ac"
+  },
+  {
+    "path": "data/bible/en/1CH.json",
+    "sha256": "cabe7a82375f3f15946cc1f1a937f3862d30e684d55ad99ee196e99eec16d105"
+  },
+  {
+    "path": "data/bible/en/2CH.json",
+    "sha256": "02941f4c5f727b865f3cf7f1fa88a519734dfb3e9515f1a2c60e9d747518de6a"
+  },
+  {
+    "path": "data/bible/en/EZR.json",
+    "sha256": "c302f56bf029362ba9349505bf897211a0fa5e23d7aaa0d6069d519581dacf68"
+  },
+  {
+    "path": "data/bible/en/NEH.json",
+    "sha256": "8372580dc081d37f6d74f3d33668ad7bd10f7b7c3e4d6f0bdae29c3fcfd74200"
+  },
+  {
+    "path": "data/bible/en/EST.json",
+    "sha256": "6e88c6024b68f278b7de5d45636aa8f6dd73a4a1256f3616ed8393c8941fa111"
+  },
+  {
+    "path": "data/bible/en/JOB.json",
+    "sha256": "18c0d3bce1ae9d694a1677304547ce77f7cdb241e5848846b6bbc37b2681e046"
+  },
+  {
+    "path": "data/bible/en/PSA.json",
+    "sha256": "3af3788102438e22a9124af24d5b3cc70c82421e47dc8bf24463972e174806f1"
+  },
+  {
+    "path": "data/bible/en/PRO.json",
+    "sha256": "3c39c14c6e81c7dc59f98bf313d5336ad40428f9e53a43bdd8318d28237f41e9"
+  },
+  {
+    "path": "data/bible/en/ECC.json",
+    "sha256": "c46ac04be7d30b8bba9d98fd82646d9c37489bd97095abc81e5cddb2b8c167b4"
+  },
+  {
+    "path": "data/bible/en/SNG.json",
+    "sha256": "3ee8bf3b0da5d7cf9281eb0e549957e99747de52e46eb4c8487e7dcc840bde17"
+  },
+  {
+    "path": "data/bible/en/ISA.json",
+    "sha256": "0eb9f8da20220147ade8a0e4d12ea6d2d7877478c1d6e2a77d582c580cc273a2"
+  },
+  {
+    "path": "data/bible/en/JER.json",
+    "sha256": "98ba6f5269e3e982f7003a853580816400ee5786dfa6e1c2344491431a305384"
+  },
+  {
+    "path": "data/bible/en/LAM.json",
+    "sha256": "c3635306982ba2f48a99dd9fe616a17527ac20fae65e513703166aa4cbc99acf"
+  },
+  {
+    "path": "data/bible/en/EZK.json",
+    "sha256": "255a11f31a3917aca26b85519619380042ee6ecdaa2a6228357b8612f04ae9cc"
+  },
+  {
+    "path": "data/bible/en/DAN.json",
+    "sha256": "59862811ff642266c7e90c0b6ebc0b8559c8db1170b4d9f293a22532d2c651f0"
+  },
+  {
+    "path": "data/bible/en/HOS.json",
+    "sha256": "c8f36ad8dc80a9af5f1950c4894bd566b10893bd4bfa60851b853bddf5577028"
+  },
+  {
+    "path": "data/bible/en/JOL.json",
+    "sha256": "5c229e057728d0a10ddac67a8bdbac61ba01e5ebafd29aa59021274767db5ac5"
+  },
+  {
+    "path": "data/bible/en/AMO.json",
+    "sha256": "dfb33f1231ba1656b55695920ba733785692c56339d3ece7ebbe445984d01b53"
+  },
+  {
+    "path": "data/bible/en/OBA.json",
+    "sha256": "a92ae83f08e146beafa084377edf91dce63da2c066c8a2683bcc7031ba829843"
+  },
+  {
+    "path": "data/bible/en/JON.json",
+    "sha256": "bbf8293aef03d1cc1f83ea657aeba2d899702f2dca358eddae53369d77143db4"
+  },
+  {
+    "path": "data/bible/en/MIC.json",
+    "sha256": "d2a5563d430802c5091972ee8807c606117248a189b98c00ad20d41356c45770"
+  },
+  {
+    "path": "data/bible/en/NAM.json",
+    "sha256": "0d871120a6530248d0c12a70acf28aebcedec2805123d2a7a4fefcb30c05f0a6"
+  },
+  {
+    "path": "data/bible/en/HAB.json",
+    "sha256": "274be3910fc9b170d07fae04925d977eb0cf80c30afaa191beb9a74ac8e7ba20"
+  },
+  {
+    "path": "data/bible/en/ZEP.json",
+    "sha256": "d9cd9312bf79df8e347789497d513f2d0b9a5c449f6ea1e73d4b31bd60009561"
+  },
+  {
+    "path": "data/bible/en/HAG.json",
+    "sha256": "4ebf002880df83caa4e20c33a44135f71e3e6fc2feae7ae4c1d5c23b0f87f48d"
+  },
+  {
+    "path": "data/bible/en/ZEC.json",
+    "sha256": "d8b7e607b5fb4500ca673c44f00e8c0de2ba6dd74549123360ed2abd0b9dac74"
+  },
+  {
+    "path": "data/bible/en/MAL.json",
+    "sha256": "4563ed447daac00b9da116caef75f7c5a787bbdd0578275422fb82f775bf1480"
+  },
+  {
+    "path": "data/bible/en/MAT.json",
+    "sha256": "0e479e0ca880fa60b0bee40179150e813a97769fc912400ae19837e0d4195584"
+  },
+  {
+    "path": "data/bible/en/MRK.json",
+    "sha256": "62748c002bd0333144a443b05d6ff6fdb26200ba1a1827d9e60968bac95c3ee1"
+  },
+  {
+    "path": "data/bible/en/LUK.json",
+    "sha256": "b15569b0c75c2eefdd81e150836aabe31ebbeb4b10a56f2af8ca19eff201f697"
+  },
+  {
+    "path": "data/bible/en/JHN.json",
+    "sha256": "8e548d627af51df2fc78b52a469d93a49eb39da00d73038af6be6aef3c486608"
+  },
+  {
+    "path": "data/bible/en/ACT.json",
+    "sha256": "e234b2b87e77c2fe737911ab1f6be3d5e43756aad60a26ae20c589e7885cab22"
+  },
+  {
+    "path": "data/bible/en/ROM.json",
+    "sha256": "32607e079fc663861e1ae12f451c581e67226a5235bcfc610093eb82f4779ae4"
+  },
+  {
+    "path": "data/bible/en/1CO.json",
+    "sha256": "4f499c319b42ce685e6d14325640a1633d23d3718a8aab5ab535c5c1050f95ef"
+  },
+  {
+    "path": "data/bible/en/2CO.json",
+    "sha256": "415e6655501040b93cd9ef9e6ed59927137be79a7fc8786289932a5a70813386"
+  },
+  {
+    "path": "data/bible/en/GAL.json",
+    "sha256": "b1f6fc1f59a793abf1f73a46e101e1e2e057243146515081b492cc5ca12dc792"
+  },
+  {
+    "path": "data/bible/en/EPH.json",
+    "sha256": "edfaae68f51774c67e771732e69095d210524c83ffa5b084eda88824182d1623"
+  },
+  {
+    "path": "data/bible/en/PHP.json",
+    "sha256": "2e35ae7dfa9b7d4dc5a64ecf1148465bc22b56cefd438c18b78cb9f3abb0f4a2"
+  },
+  {
+    "path": "data/bible/en/COL.json",
+    "sha256": "6035aabf2619d0336bfe77a9c384b36eeb89486c55ad569ae137860a0238219f"
+  },
+  {
+    "path": "data/bible/en/1TH.json",
+    "sha256": "9cb5b74d980c3e988141f94a4df06ca595f799ff5b5a7067495888d11f7f592f"
+  },
+  {
+    "path": "data/bible/en/2TH.json",
+    "sha256": "88a90e111351280658c1db2da5883c56175fd65b0aecc002e9de0ee4a42e2e01"
+  },
+  {
+    "path": "data/bible/en/1TI.json",
+    "sha256": "02f14fca0e9d5f9601367e5db24333dee7bfe3340c3cd18bdbf2ae34f55ea6de"
+  },
+  {
+    "path": "data/bible/en/2TI.json",
+    "sha256": "eec4329aa4295e78b7e802cf1a4a976d888cf206958b5d0ccb2a9e29caa39aac"
+  },
+  {
+    "path": "data/bible/en/TIT.json",
+    "sha256": "3a61eb0256a6cefeeb5064395f595f284168de72dcd064619e9639d8165a1211"
+  },
+  {
+    "path": "data/bible/en/PHM.json",
+    "sha256": "9b05e4ed8f1cda66306269560dca05f535784b9e9383d90eaf0febb28aefb601"
+  },
+  {
+    "path": "data/bible/en/HEB.json",
+    "sha256": "4aad2e7b8dce442464cc54e98ad73f5b4b16645e604eb7bb4b123e22a5a053e0"
+  },
+  {
+    "path": "data/bible/en/JAS.json",
+    "sha256": "7b853ceb8a508d6b1ca111a1b822c7600c0e87e74795fdb4d5442c06f95c466b"
+  },
+  {
+    "path": "data/bible/en/1PE.json",
+    "sha256": "74a719ecf806776841e3e80e0b557b05936b172b73d1a4a788c1d3fc716f4600"
+  },
+  {
+    "path": "data/bible/en/2PE.json",
+    "sha256": "1c371e52f0f767b379188dbc73bcf9ab0b1a673e7c5ef3c397afb6d8dd48ce18"
+  },
+  {
+    "path": "data/bible/en/1JN.json",
+    "sha256": "7c71c3b31deffebdd4b806015db785f17cce8c723f5086ab89cf6a6a00512261"
+  },
+  {
+    "path": "data/bible/en/2JN.json",
+    "sha256": "fb3923a9ddc73bd5fa96031dffdba6f5d93dae1c357c38697565a3628124dd7f"
+  },
+  {
+    "path": "data/bible/en/3JN.json",
+    "sha256": "dc67af04fbe226aaa2a531428ef7696833ec47236767f63965ef678dc840f0f2"
+  },
+  {
+    "path": "data/bible/en/JUD.json",
+    "sha256": "35bbab3bdb4bbf98eb3d104cd3cc659891fdc08f44ecb6ab45a69f957cca6ab0"
+  },
+  {
+    "path": "data/bible/en/REV.json",
+    "sha256": "cf1f39fcc1bf2ba90c2487186507db05cc64a21a2b9f2a77f542725fe2c565b5"
+  },
+  {
+    "path": "assets/fonts/cinzel.woff",
+    "sha256": "5d73fa45d95cf229c3c59288c31127d7d075f8d3f0be23ea4bb999dcc2ca3c68"
+  },
+  {
+    "path": "assets/fonts/latin.woff",
+    "sha256": "cd3939f33a7d3183d80b13b80dae607fd029a33f3c067d8ff10ec53db54c5008"
+  },
+  {
+    "path": "assets/fonts/cinzel-OFL.txt",
+    "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+  },
+  {
+    "path": "assets/fonts/EBGaramond-OFL.txt",
+    "sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7"
+  },
+  {
+    "path": "assets/art/annunciation.jpg",
+    "sha256": "1c22a06b83b4629a8819da0c826ec4f732facf86eb2edd6cbbb044699aac177c"
+  },
+  {
+    "path": "assets/art/magi.jpg",
+    "sha256": "a89901821093093cc2f26f785bf6856ae2b720c0b62dd15528dfb07fb92ae5f6"
+  },
+  {
+    "path": "assets/art/moses.jpg",
+    "sha256": "0dfb2eda304230ea88b7c61c1d3721ccd0b3ace2c69bc43d7b634cdc930a1e02"
+  },
+  {
+    "path": "assets/art/galilee.jpg",
+    "sha256": "c92d36869b21c7c407cb5d74b651cbcdacae084c3109d41048af57653a1507eb"
+  }
+]
