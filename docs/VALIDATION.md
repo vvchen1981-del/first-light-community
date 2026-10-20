@@ -1,3 +1,25 @@
+# Community 1.1.0 validation
+
+Date: 2026-10-20. This update adds English-first onboarding, persistent language links, page sharing, and device-speech queue fixes. Historical 1.0.0 evidence follows unchanged below.
+
+## Current version checks
+
+- Seven Node content/resource tests and the allowlisted static build pass.
+- Thirteen browser functional groups pass, including both editions, all lessons/artwork, saved records, backup/import, narrow screens and project subpaths.
+- Six adoption/share checks pass: English first visit, retained Chinese preference, language-aware artwork/lesson/verse links, and feedback entry. Clipboard fallback was exercised in an isolated browser with native sharing unavailable; the native OS share sheet was not submitted to any recipient.
+- Four simulated speech-state regression groups pass. These are control tests, separate from the real engine evidence below.
+- Actual headed Windows Chrome, using Microsoft Huihui (zh-CN) and Microsoft David (en-US): start, native pause/resume, automatic advance to verse two, navigation while paused, return/restart, and explicit stop pass. Cancellation produces expected interrupted events, which do not restart the old reading.
+- Windows system-output loopback (no microphone): both languages produce nonzero audio during playback, resume and the next verse; pause and language switching return to the silent baseline. The virtual output device required a warm-up to drain old audio. An initial undrained measurement was rejected, not treated as acceptance.
+- Desktop and mobile rendered screenshots reviewed. English README screenshot updated from the working interface.
+
+Audio sample: Psalm 117 in both editions. Loopback acceptance uses PCM RMS > 50 for audible phases and < 5 for silent phases (16-bit samples). This establishes sound output and controls on this environment, not a subjective claim about naturalness, voice quality, all verses, all browsers, iOS or Android. Device voice availability remains platform-dependent. The earlier headless failures below remain historical evidence of that environment.
+
+## Public update
+
+GitHub Actions runs content validation and builds before deployment. The deployment workflow linked below is the authoritative published status; local checks alone do not establish deployment.
+
+---
+
 # Community 1.0.0 validation
 
 Date: 2026-10-20. The test evidence below was collected locally before publication. It does not establish iOS acceptance. Subsequent publishing uses the public repository and workflow linked at the end of this document.

@@ -1,0 +1,38 @@
+name: Problem or device speech report / 问题与设备朗读
+description: Tell us what failed in English or Chinese. 欢迎中英文反馈。
+title: "[Problem] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please keep private notes, backups, passwords, and tokens out of this public report. 请勿上传私人笔记、备份、密码或密钥。"
+  - type: input
+    id: page
+    attributes:
+      label: Page or passage / 页面或经文
+      description: Paste the public page link, or name the lesson, artwork, book and chapter.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you try? / 如何重现
+      description: Describe the steps, what you expected, and what actually happened.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device, OS, and browser / 设备、系统与浏览器
+      placeholder: e.g. iPhone, iOS version, Safari version
+    validations:
+      required: true
+  - type: textarea
+    id: speech
+    attributes:
+      label: If this concerns speech / 如涉及朗读
+      description: Include language, selected voice name if visible, verse or chapter playback, whether you heard sound, and any message. Device voices vary; no cloud TTS is included.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional screenshot or details / 可选截图与补充
+      description: Remove personal information before sharing. Note whether the problem repeats after reload.

@@ -1,0 +1,41 @@
+name: Suggestion or content correction / 建议与内容纠错
+description: Improve wording, accessibility, sources, or features. 欢迎中英文建议。
+title: "[Suggestion] "
+body:
+  - type: markdown
+    attributes:
+      value: "English and Chinese feedback are welcome. This report is public: do not include personal notes, backups, passwords, or tokens. 欢迎中英文反馈，请勿提交私人资料。"
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of feedback / 反馈类型
+      options:
+        - Wording or translation / 文案或翻译
+        - Scripture or source correction / 经文或来源纠错
+        - Art or lesson content / 艺术或课程
+        - Accessibility or usability / 无障碍或易用性
+        - Feature idea / 功能建议
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Relevant page or passage / 相关页面或经文
+      description: Share a public page link or identify the text. For scripture, include edition, book, chapter, and verse.
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would help, and why? / 建议及原因
+      description: Explain the problem for a reader and your proposed improvement. You can write in English or Chinese.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources for factual corrections / 事实纠错来源
+      description: Link a publisher or institutional record where relevant. Distinguish historical facts, scripture, and your interpretation. For images, include rights information.
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Optional contribution / 可选参与方式
+      description: You may offer wording, source research, testing, or code. No commitment is required.

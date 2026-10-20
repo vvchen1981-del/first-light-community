@@ -1,31 +1,42 @@
-# First Light Community · 初见社区版
+# First Light Community
 
-A quiet place to read the Bible, explore its stories through art, and keep what matters.
-一个免费的中英文圣经阅读与艺术学习小站。无需注册，打开网页即可使用。
+**A free English and Chinese Bible reader with art and short lessons. No sign-up.**
 
-**[Open the web app / 直接开始使用](https://vvchen1981-del.github.io/first-light-community/)**
+Read a chapter, look closely at a painting, or start with one question. Open the site on your phone or computer—there is nothing to install.
 
-[![Verify and deploy Pages](https://github.com/vvchen1981-del/first-light-community/actions/workflows/pages.yml/badge.svg)](https://github.com/vvchen1981-del/first-light-community/actions/workflows/pages.yml)
+**[Start reading →](https://vvchen1981-del.github.io/first-light-community/#read/JHN/1)** · [Explore 5 lessons](https://vvchen1981-del.github.io/first-light-community/#learn) · [Visit the art gallery](https://vvchen1981-del.github.io/first-light-community/#art)
 
-**Independent static edition / 独立静态简版** — no API keys, no backend, no runtime dependencies.
-This repository is not the full native iOS app and does not include its cloud speech, accounts or subscriptions.
+[中文介绍](README.zh-CN.md) · [Report a problem or share an idea](https://github.com/vvchen1981-del/first-light-community/issues/new/choose)
 
-![Community reading and art interface](docs/preview-desktop.png)
+![Bible reading and art in First Light Community](docs/preview-desktop.png)
 
-## What is included / 功能
+## Find a place to begin
 
-- 中文新标点和合本 + English World English Bible，每个版本 66 卷、1,189 章。按卷按章加载，保留原始经节编号和合并节。
-- 旧约/新约及书卷、章节选择，逐节定位、章内检索、连续章节导航、恢复阅读位置。
-- 设备语音朗读：按节播放、整章连续朗读、暂停/继续、停止、音色选择与速度调整。音色依赖设备，不能保证与完整版云端声音相同。
-- 5 个双语入门学习单元，附原文入口、理解题、反馈与本机完成记录。
-- 4 件精选圣经主题馆藏艺术作品，配创作信息、背景、观察提示、经文关联和出处。
-- 本地收藏、学习进度、JSON 备份导出/导入；无跨设备自动同步。
-- 中英界面切换、手机与桌面布局、键盘操作与可见焦点。
+- **Read in English or Chinese.** The World English Bible and simplified Chinese Union Version each contain 66 books and 1,189 chapters. Choose a book and chapter, search within a chapter, and return to your reading position.
+- **Explore through art.** Four biblical artworks have source records, background, looking prompts, and links back to scripture.
+- **Try a short lesson.** Five bilingual introductory lessons connect a passage, context, and a question, with feedback and local completion records.
+- **Listen with your device.** Read a verse or chapter aloud; choose an available voice and adjust its speed. Voice availability, pronunciation, quality, and network requirements depend on your browser and operating system. This edition has no cloud TTS service; Chinese and English sound output and playback controls were verified on Windows Chrome; other browsers and devices still need their own checks.
+- **Keep a personal reading trail.** Save bookmarks and artwork, track progress, and export or import a JSON backup. Records stay in the current browser; they do not automatically sync across devices.
 
-不包含：云端 TTS、付费课程、用户账号、附近教堂服务、200 件完整艺术库、开屏影片、iOS 打包。没有将完整版的付费接口或私有配置移入这个公开项目。
-Not included: cloud TTS, subscriptions, accounts, church search, the full art collection, intro films or native iOS packaging.
+New visitors start in English. Use the visible 中文 / English button to switch; your preference is saved, and shared links keep the chosen language. The interface supports phones, desktop screens, keyboard navigation, and visible focus.
 
-## Run locally / 本机启动
+## Free, simple, and local
+
+This is an independent static community edition: no account, subscriptions, API keys, backend, advertising, or in-app analytics. Hosting providers may keep request logs, and some operating-system voices use online services. See [Privacy](PRIVACY.md) for details and instructions to delete local records. Keep exported personal backups private.
+
+The site does not promise offline installation. A first visit and uncached books need an internet connection. You can download the source and run it locally to read without internet; device speech may still need a network. GitHub Pages availability and loading speed vary by network and region.
+
+The community edition does not include the full native iOS app, cloud speech, church search, intro films, or the full art collection.
+
+## Help make it more useful
+
+You are welcome to use the site without a GitHub account. If you have one, [share a problem or suggestion in English or Chinese](https://github.com/vvchen1981-del/first-light-community/issues/new/choose). Tell us what you tried, what happened, and your browser/device. A clear report about a confusing button, awkward translation, or device voice can help as much as code.
+
+To share First Light, send someone the [reading link](https://vvchen1981-del.github.io/first-light-community/#read/JHN/1), [lessons](https://vvchen1981-del.github.io/first-light-community/#learn), or [gallery](https://vvchen1981-del.github.io/first-light-community/#art). A repository star is optional if you want to find the project again.
+
+See [Contributing](CONTRIBUTING.md) for content, translation, accessibility, and code contributions. Please leave private reading notes, backups, passwords, and tokens out of public issues and pull requests.
+
+## Run locally
 
 Install Node.js 22 or newer, then run inside this folder:
 
@@ -33,9 +44,7 @@ Install Node.js 22 or newer, then run inside this folder:
 npm start
 ```
 
-Open **http://127.0.0.1:4340/**. No `npm install` is needed: this project has no npm dependencies.
-Do not double-click `index.html`; browsers restrict module/data loading over `file://`.
-Windows 用户安装 Node.js 后，也可双击 `START.cmd`，再打开上述网址。
+Open **http://127.0.0.1:4340/**. No `npm install` is needed: there are no npm dependencies. On Windows, you can also double-click `START.cmd`. Browsers restrict module and data loading over `file://`, so use the local server.
 
 ```sh
 npm test
@@ -43,42 +52,37 @@ npm run build
 node scripts/serve.mjs --dist
 ```
 
-The build copies only an explicit public-file allowlist into `dist/`. To choose another port, set the `PORT` environment variable.
+The build copies an explicit public-file allowlist into `dist/`. Set `PORT` to choose another port. [Validation notes](docs/VALIDATION.md) describe the checks and their limits; a successful automated check does not establish audible speech quality.
 
-## Publish on GitHub Pages / GitHub 上线
+## Deploy your own copy
 
-1. Create a GitHub repository (for example, `first-light-community`).
-2. Upload **this folder's contents**, including `.github/workflows/pages.yml`. Do not upload the parent workspace, personal backups, old full-app folders or private environment files.
-3. Use a branch named **main**. In **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
-4. The included workflow runs the data checks and static build, then deploys Pages on pushes to `main`. Pull requests run checks without deployment.
-5. Open the actual deployment URL shown by the workflow. A project site normally has the form `https://YOUR-NAME.github.io/first-light-community/`; this is a template, not an already deployed link.
+The public app is at **[First Light Community](https://vvchen1981-del.github.io/first-light-community/)**. The [deployment workflow](https://github.com/vvchen1981-del/first-light-community/actions/workflows/pages.yml) shows its verification and deployment runs.
 
-All app resources use relative paths, and reading links use hash routes. Both a root site and a repository subpath are supported. The local development server also supports `/community/` for subpath testing.
+For your own GitHub Pages copy:
 
-GitHub's current workflow guide: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+1. Create or fork a repository and use a `main` branch. If uploading files, upload this folder's contents, including `.github/workflows/pages.yml`.
+2. In **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
+3. Push to `main`. The workflow checks the data, builds the static site, and deploys it. Pull requests run checks without deployment.
+4. Open the deployment URL shown by your workflow. Forks need their own Pages configuration.
 
-The original public repository is https://github.com/vvchen1981-del/first-light-community and its Pages address is https://vvchen1981-del.github.io/first-light-community/. The status badge above links to the actual deployment runs. Forks must enable their own Pages deployment. GitHub availability and loading performance vary by network and region.
+Upload only the community project, keeping parent workspaces, personal backups, private environment files, and other app versions outside the repository. Resources use relative paths and navigation uses hash routes, supporting repository subpaths. The local server also supports `/community/` for subpath checks. See [GitHub's Pages workflow guide](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+## Sources and license
+
+Application code and original short guide text are [MIT licensed](LICENSE). Scripture, images, and fonts retain their own terms; the MIT license does not relicense them. See [Third-party notices](THIRD_PARTY_NOTICES.md) for publisher sources, museum object pages, image rights, and font notices. The shipped scripture preserves its source text and original verse numbering, including Chinese verse bridges. Both editions use the 66-book scope; this does not describe every Christian tradition's canon.
+
+The four museum images are credited to the National Gallery of Art, Washington. Guide text distinguishes scripture, historical context, and editorial looking prompts. No institution endorses this application.
 
 ## Project map
 
 ```text
 index.html / app.js / styles.css  application
-assets/art/                      four attributed open-access images
-assets/fonts/                    local font subsets and OFL notices
-data/bible/                      complete edition data and provenance
-data/art.json                    art metadata and bilingual guide text
+data/bible/                      edition data and provenance
+data/art.json                    four artworks and bilingual guides
 data/lessons.json                five learning units
+assets/art/                      attributed artwork images
+assets/fonts/                    local subsets and OFL notices
 scripts/                         local server and allowlisted build
 tests/                           content and public-resource checks
-.github/workflows/pages.yml      verify and deploy workflow
+.github/workflows/pages.yml      verification and deployment
 ```
-
-## Privacy, content, and contributions
-
-Read [PRIVACY.md](PRIVACY.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-New application code and original guide text: [MIT](LICENSE). Scripture, images and fonts retain their respective terms.
-Local validation and its limits: [docs/VALIDATION.md](docs/VALIDATION.md). Actual audible device speech still requires ordinary-browser/device listening; headless speech requests failed in the test environment.
-
-Contributors: keep the application static; never add service secrets. Link every new artwork to an institutional object page and image rights statement. Keep original scripture unchanged. Distinguish historical facts, biblical text and editorial observations. Test both languages and narrow mobile screens before proposing changes.
-
-No offline-install/service-worker promise is made in v1. Browser-cached resources may remain available, but a first visit and uncached books require the site. To read without internet, run the downloaded source locally with `npm start`; operating-system speech may still require a network.

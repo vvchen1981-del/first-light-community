@@ -8,7 +8,7 @@ const esc = (v) =>
 const KEY = "first-light-community-v1";
 const blank = () => ({
   version: 1,
-  lang: "zh-Hans",
+  lang: "en",
   bookmarks: [],
   art: [],
   completed: [],
@@ -22,7 +22,9 @@ try {
   const saved = JSON.parse(localStorage.getItem(KEY));
   if (saved && saved.version === 1) state = { ...state, ...saved };
 } catch {}
-if (!["zh-Hans", "en"].includes(state.lang)) state.lang = "zh-Hans";
+if (!["zh-Hans", "en"].includes(state.lang)) state.lang = "en";
+const linkedLanguage = new URL(location.href).searchParams.get("lang");
+if (["zh-Hans", "en"].includes(linkedLanguage)) state.lang = linkedLanguage;
 for (const k of ["bookmarks", "art", "completed"]) if (!Array.isArray(state[k])) state[k] = [];
 if (!state.progress || typeof state.progress !== "object") state.progress = {};
 let catalog = [],
@@ -40,7 +42,8 @@ let speechGeneration = 0,
   speechActive = false,
   speechPending = false,
   currentUtterance = null,
-  speechStartTimer = null;
+  speechStartTimer = null,
+  speechNextTimer = null;
 const synth = window.speechSynthesis;
 const t = (zh, en) => (state.lang === "en" ? en : zh);
 const loc = (v) =>
@@ -88,7 +91,8 @@ const icons = {
 function chrome(tab) {
   document.documentElement.lang = state.lang;
   document.title = t("初见 · First Light Community", "First Light Community");
-  $("#language").textContent = state.lang === "en" ? "中文 / EN" : "EN / 中文";
+  $("#language").textContent = state.lang === "en" ? "中文" : "English";
+  $("#language").setAttribute("aria-label", t("切换到英文", "Switch to Chinese"));
   $("#navigation").innerHTML = [
     ["home", "今日", "Today"],
     ["read", "阅读", "Read"],
@@ -103,7 +107,8 @@ function chrome(tab) {
     .join("");
   $("#navigation").setAttribute("aria-label", t("主导航", "Main navigation"));
   $("#footer").innerHTML =
-    `<span>FIRST LIGHT COMMUNITY · ${t("在字句之间，留一点光。", "Make room for a little light.")}</span><br><a href="PRIVACY.md">${t("隐私与本地数据", "Privacy & local data")}</a><a href="THIRD_PARTY_NOTICES.md">${t("来源与许可", "Sources & licenses")}</a>`;
+    `<span>FIRST LIGHT COMMUNITY · ${t("在字句之间，留一点光。", "Make room for a little light.")}</span><br><a href="PRIVACY.md">${t("隐私与本地数据", "Privacy & local data")}</a><a href="THIRD_PARTY_NOTICES.md">${t("来源与许可", "Sources & licenses")}</a><a href="https://github.com/vvchen1981-del/first-light-community/issues" target="_blank" rel="noopener noreferrer">${t("反馈与建议", "Feedback")}</a><button id="share-page" class="language">${t("分享这一页", "Share this page")}</button>`;
+  $("#share-page").onclick = () => share();
 }
 function progressCount() {
   return Object.keys(state.progress).filter((k) => state.progress[k] === true).length;
@@ -118,7 +123,7 @@ async function home() {
     state.lastRead && catalog.some((b) => b.id === state.lastRead.book)
       ? state.lastRead
       : { book: "JHN", chapter: 1 };
-  return `<section class="hero"><div><div class="eyebrow">A quiet beginning</div><h1>${t("从一束光开始，<br>读懂字句与生活。", "A little light.<br>A deeper reading.")}</h1><p>${t("打开圣经，慢慢读，也听一听。让画作带你观察，让一个问题陪你思考。", "Read slowly. Listen closely. Explore a painting, follow a question, and make space to reflect.")}</p><div class="actions"><a class="button primary" href="${readURL(r)}">${t("继续阅读", "Continue reading")} →</a><a class="button" href="#learn">${t("开始学习", "Explore lessons")}</a></div><p class="caption">${t("中文 · English　／　阅读、聆听、艺术", "中文 · English / Reading, listening, art")}</p></div>${a ? `<div class="hero-image"><a href="#art/${esc(a.id)}"><img src="${esc(a.image)}" alt="${esc(loc(a.title))}"></a><p class="caption">${esc(loc(a.title))} · ${esc(loc(a.artist))}</p></div>` : ""}</section><section><div class="section-heading"><h2>${t("今天，留一点时间", "A moment for today")}</h2><span class="eyebrow">READ · NOTICE · REFLECT</span></div><div class="grid"><a class="card card-link" href="#read/JHN/1/5"><span class="card-number">01 / READ</span><h3>${t("光照在黑暗里", "Light in the darkness")}</h3><p>${t("从约翰福音第一章开始，读一段关于生命与光的文字。", "Begin with John 1, a passage about life and light.")}</p><span class="text-link">${t("打开经文", "Open passage")} →</span></a><a class="card card-link" href="#learn"><span class="card-number">02 / LEARN</span><h3>${t("带着问题阅读", "Read with a question")}</h3><p>${t("五个简短主题，结合经文、背景和理解练习。", "Five short lessons connect passages, context, and reflection.")}</p><span class="text-link">${t("浏览课程", "Explore lessons")} →</span></a><a class="card card-link" href="#art"><span class="card-number">03 / LOOK</span><h3>${t("在画面中停留", "Stay with a painting")}</h3><p>${t("从光线、手势与细节，进入艺术家描绘的圣经故事。", "Notice light, gesture, and detail in paintings of biblical stories.")}</p><span class="text-link">${t("进入画廊", "Visit gallery")} →</span></a></div></section><section class="quote">${esc(dailyVerse?.text || "")}<div class="caption">${t("约翰福音 1:5 · 和合本", "John 1:5 · World English Bible")}</div></section>`;
+  return `<section class="hero"><div><div class="eyebrow">${t("圣经 · 故事 · 艺术", "BIBLE · STORIES · ART")}</div><h1>${t("从一束光开始，<br>读懂字句与生活。", "A little light.<br>A deeper reading.")}</h1><p>${t("打开圣经，慢慢读，也听一听。让画作带你观察，让一个问题陪你思考。", "Read the Bible at your own pace. Listen to a passage, explore a painting, and make space to reflect.")}</p><div class="actions"><a class="button primary" href="${readURL(r)}">${progressCount() ? t("继续阅读", "Continue reading") : t("开始阅读", "Start reading")} →</a><a class="button" href="#learn">${t("开始学习", "Explore lessons")}</a></div><p class="caption">${t("免费使用 · 无需注册 · 记录保存在本机", "Free to use · No sign-up · Your progress stays on your device")}</p></div>${a ? `<div class="hero-image"><a href="#art/${esc(a.id)}"><img src="${esc(a.image)}" alt="${esc(loc(a.title))}"></a><p class="caption">${esc(loc(a.title))} · ${esc(loc(a.artist))}</p></div>` : ""}</section><section><div class="section-heading"><h2>${t("今天，留一点时间", "A moment for today")}</h2><span class="eyebrow">READ · NOTICE · REFLECT</span></div><div class="grid"><a class="card card-link" href="#read/JHN/1/5"><span class="card-number">01 / READ</span><h3>${t("光照在黑暗里", "Light in the darkness")}</h3><p>${t("从约翰福音第一章开始，读一段关于生命与光的文字。", "Begin with John 1, a passage about life and light.")}</p><span class="text-link">${t("打开经文", "Open passage")} →</span></a><a class="card card-link" href="#learn"><span class="card-number">02 / LEARN</span><h3>${t("带着问题阅读", "Read with a question")}</h3><p>${t("五个简短主题，结合经文、背景和理解练习。", "Five short lessons connect passages, context, and reflection.")}</p><span class="text-link">${t("浏览课程", "Explore lessons")} →</span></a><a class="card card-link" href="#art"><span class="card-number">03 / LOOK</span><h3>${t("在画面中停留", "Stay with a painting")}</h3><p>${t("从光线、手势与细节，进入艺术家描绘的圣经故事。", "Notice light, gesture, and detail in paintings of biblical stories.")}</p><span class="text-link">${t("进入画廊", "Visit gallery")} →</span></a></div></section><section class="quote">${esc(dailyVerse?.text || "")}<div class="caption">${t("约翰福音 1:5 · 和合本", "John 1:5 · World English Bible")}</div></section>`;
 }
 function artGallery() {
   return `<div class="page-head"><div class="eyebrow">The art of looking</div><h1>${t("让画作，打开故事。", "A story, seen anew.")}</h1><p>${t("观看原作，了解出处，再回到经文。画作解读是一种观察视角，不能替代原文。", "Look at the artwork, explore its context, and return to the passage. Interpretations offer a perspective on the painting.")}</p></div><div class="art-grid">${arts.map((a) => `<a class="art-card" href="#art/${esc(a.id)}"><img loading="lazy" src="${esc(a.image)}" alt="${esc(loc(a.title))}"><h2>${esc(loc(a.title))}</h2><p>${esc(loc(a.artist))} · ${esc(loc(a.date))}</p></a>`).join("")}</div>`;
@@ -335,13 +340,22 @@ function updateSpeechControls() {
 function stopSpeech(show = false) {
   speechGeneration++;
   clearTimeout(speechStartTimer);
+  clearTimeout(speechNextTimer);
+  speechNextTimer = null;
   speechStartTimer = null;
   speechActive = false;
   speechPaused = false;
   speechPending = false;
   currentUtterance = null;
   speakingIndex = -1;
-  if (synth) synth.cancel();
+  if (synth) {
+    synth.cancel();
+    // cancel() empties the queue but does not clear the engine's paused state.
+    // A new reading must not inherit a pause from a previous page or language.
+    // Resume unconditionally: native pause acknowledgement can arrive after
+    // the route changes, before the browser updates its paused property.
+    synth.resume();
+  }
   $$(".speaking").forEach((el) => el.classList.remove("speaking"));
   if (show) updateSpeechControls();
 }
@@ -363,6 +377,10 @@ function startSpeech(index) {
   updateSpeechControls();
   const speakNext = (i) => {
     if (generation !== speechGeneration || !speechActive) return;
+    if (speechPaused) {
+      speechNextTimer = setTimeout(() => speakNext(i), 120);
+      return;
+    }
     if (i >= speechList.length) {
       clearTimeout(speechStartTimer);
       speechStartTimer = null;
@@ -412,7 +430,8 @@ function startSpeech(index) {
       speechStartTimer = null;
       currentUtterance = null;
       $$(".speaking").forEach((el) => el.classList.remove("speaking"));
-      speakNext(i + 1);
+      // Avoid re-entering the native engine from its end callback.
+      speechNextTimer = setTimeout(() => speakNext(i + 1), 120);
     };
     u.onerror = (e) => {
       if (generation !== speechGeneration || currentUtterance !== u) return;
@@ -442,15 +461,29 @@ function startSpeech(index) {
 }
 async function share(r) {
   const url = new URL(location.href);
-  url.hash = readURL(r);
+  url.searchParams.set("lang", state.lang);
+  if (r) url.hash = readURL(r);
+  const copyLink = async () => {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(url.href);
+      notify(t("链接已复制，可以分享给朋友。", "Link copied. Share it with a friend."));
+    } else {
+      window.prompt(t("复制分享链接", "Copy share link"), url.href);
+    }
+  };
   try {
     if (navigator.share) {
-      await navigator.share({ title: refText(r), url: url.href });
-    } else if (navigator.clipboard && window.isSecureContext) {
-      await navigator.clipboard.writeText(url.href);
-      notify(t("经文链接已复制", "Verse link copied"));
+      try {
+        await navigator.share({
+          title: r ? refText(r) : "First Light · " + ($("#main h1")?.textContent || "Bible & Art"),
+          url: url.href,
+        });
+      } catch (e) {
+        if (e.name === "AbortError") return;
+        await copyLink();
+      }
     } else {
-      window.prompt(t("复制经文链接", "Copy verse link"), url.href);
+      await copyLink();
     }
   } catch (e) {
     if (e.name !== "AbortError")
@@ -693,6 +726,9 @@ async function route() {
 $("#language").onclick = () => {
   stopSpeech();
   state.lang = state.lang === "en" ? "zh-Hans" : "en";
+  const url = new URL(location.href);
+  url.searchParams.set("lang", state.lang);
+  history.replaceState(null, "", url);
   save();
   route();
 };
@@ -725,6 +761,10 @@ async function init() {
       state = validatedImport(state);
     } catch {
       state = blank();
+    }
+    if (["zh-Hans", "en"].includes(linkedLanguage)) {
+      state.lang = linkedLanguage;
+      save();
     }
     await route();
   } catch {

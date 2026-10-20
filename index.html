@@ -1,17 +1,34 @@
 <!doctype html>
-<html lang="zh-Hans">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#394539" />
-    <meta name="description" content="First Light Community · 在阅读、聆听与艺术中学习圣经。" />
+    <meta
+      name="description"
+      content="Read the Bible in English or Chinese, explore biblical art, and learn at your own pace. Free, no sign-up."
+    />
+    <meta property="og:title" content="First Light — Bible, stories & art" />
+    <meta
+      property="og:description"
+      content="A quiet place to read, listen and explore biblical art. Free, in English and Chinese. No account needed."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://vvchen1981-del.github.io/first-light-community/assets/social-preview.png"
+    />
+    <meta property="og:image:alt" content="First Light Bible and art reading interface" />
+    <meta name="twitter:card" content="summary_large_image" />
     <title>First Light Community</title>
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="app.js"></script>
   </head>
   <body>
-    <noscript>请启用 JavaScript 以打开阅读器。Please enable JavaScript to open the reader.</noscript>
+    <noscript
+      >请启用 JavaScript 以打开阅读器。Please enable JavaScript to open the reader.</noscript
+    >
     <a class="skip" href="#main">跳到正文 / Skip to content</a>
     <header class="site-header">
       <a class="brand" href="#home"
@@ -21,8 +38,8 @@
       ><button id="language" class="language" aria-label="Switch language">EN / 中文</button>
     </header>
     <div id="status" class="toast" role="status" aria-live="polite"></div>
-    <main id="main" tabindex="-1"><div class="loading">正在打开书页…</div></main>
-    <nav id="navigation" class="navigation" aria-label="主导航"></nav>
+    <main id="main" tabindex="-1"><div class="loading">Opening the pages…</div></main>
+    <nav id="navigation" class="navigation" aria-label="Main navigation"></nav>
     <footer id="footer"></footer>
   </body>
 </html>
