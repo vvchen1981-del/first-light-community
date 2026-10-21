@@ -1,8 +1,12 @@
 # First Light Community · Bible & Art
 
-**A free English and Chinese Bible reader with art and short lessons. No sign-up.**
+**Explore biblical paintings. Discover the Bible stories behind them.**
 
-Curious about the story behind a biblical painting? Start with *The Finding of Moses*, notice a detail, then open the passage that inspired it. Or go straight to a chapter and read at your own pace. It works in your browser on a phone or computer.
+Who are the people in the painting? What is happening, and why did the artist choose to show it this way?
+
+First Light brings together biblical art, historical context, and Bible reading. Look closely at a painting, get to know its characters and story, then read the related passage. Knowing the story can give a glance, a gesture, or a small detail new meaning.
+
+If you love art, it offers a place to begin exploring the Bible. If you already read the Bible, it offers another way to appreciate the stories you know. Start with a painting that catches your eye, with guides and introductory lessons in English and Chinese. The community edition is free to use in your browser, with no sign-up.
 
 **[Try The Finding of Moses →](https://vvchen1981-del.github.io/first-light-community/?lang=en#art/moses)** · [Read the Bible](https://vvchen1981-del.github.io/first-light-community/?lang=en#read/JHN/1) · [Try a short lesson](https://vvchen1981-del.github.io/first-light-community/?lang=en#learn/beginning)
 
@@ -50,7 +54,7 @@ See [Contributing](CONTRIBUTING.md) for content, translation, accessibility, and
 
 Know someone interested in biblical art, reading in two languages, or a simple Bible reader? Send them a specific page they might enjoy:
 
-> What do you notice first in *The Finding of Moses*? First Light pairs the painting with its story and a passage from Exodus. It is free to explore in English or Chinese, with no account needed.
+> Who found the baby Moses, and why did she save him? Why did Veronese dress the figures in Renaissance finery? Explore *The Finding of Moses* with First Light: look closely at the painting, discover its historical setting, and read the story in Exodus. Free to explore in English and Chinese, with no sign-up.
 >
 > [Open the painting and story](https://vvchen1981-del.github.io/first-light-community/?lang=en#art/moses)
 

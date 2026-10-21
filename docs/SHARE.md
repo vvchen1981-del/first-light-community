@@ -4,13 +4,15 @@ Use a page that fits the person you are sharing with. These descriptions refer t
 
 ## English: start with a painting
 
-What do you notice first in *The Finding of Moses*? First Light pairs the painting with its story, a looking prompt, and a passage from Exodus. Open it in your browser, then follow the details back to the text. Free, in English and Chinese, with no sign-up.
+**Explore biblical paintings. Discover the Bible stories behind them.**
+
+Who found the baby Moses, and why did she save him? Why did Veronese dress the figures in Renaissance finery? Explore *The Finding of Moses* with First Light: look closely at the painting, discover its historical setting, and read the story in Exodus. Free to explore in English and Chinese, with no sign-up.
 
 [Explore The Finding of Moses](https://vvchen1981-del.github.io/first-light-community/?lang=en#art/moses)
 
 ## English: start with reading
 
-Looking for a simple Bible reader in English and Chinese? First Light lets you read a chapter, listen with your device's available voices, and save bookmarks locally. It also has short lessons and a small gallery of biblical art. You can use it without an account.
+Explore the Bible through both words and paintings. First Light pairs biblical artworks with looking prompts, historical context, and links to scripture. Read in English or Chinese, try a short lesson with a question and feedback, or listen with your device's available voices. Save passages and artworks to revisit in the same browser. Free to use, with no account needed.
 
 [Start reading John 1](https://vvchen1981-del.github.io/first-light-community/?lang=en#read/JHN/1)
 
@@ -18,19 +20,21 @@ Device voices vary by browser and operating system. Bookmarks stay in the curren
 
 ## English: for the open-source community
 
-First Light Community is a static Bible and art reader built with plain JavaScript. It combines English and Chinese reading, device speech, local bookmarks, five introductory lessons, and four attributed museum artworks. No build dependencies, API key, or backend are required to run it locally. Application code is MIT licensed; scripture, artwork and fonts have separate source and license records.
+First Light Community helps readers explore biblical paintings and the Bible stories behind them. Its English and Chinese guides connect details in four museum artworks with historical context and scripture; five introductory lessons offer questions with feedback. Built with plain JavaScript, it includes a Bible reader, device speech, and local bookmarks. No npm dependencies, API key, or backend are required to run it locally. Application code is MIT licensed; scripture, artwork and fonts have separate source and license records.
 
 [Try the app](https://vvchen1981-del.github.io/first-light-community/?lang=en#home) · [Browse the code](https://github.com/vvchen1981-del/first-light-community) · [Contribute](../CONTRIBUTING.md)
 
 ## 中文：从一幅画开始
 
-《发现摩西》画的是什么？初见把这幅画的背景、观察提示和《出埃及记》中的故事放在一起。可以先看画，再读经文，也可以切换英文慢慢读。免费，无需注册，手机和电脑直接打开就能用。
+**看懂圣经名画，读懂画中的圣经故事。**
+
+谁发现了河边的婴孩？她为什么决定救下他？一个发生在古埃及的故事，为什么被画家描绘得像文艺复兴时期的宫廷？跟着初见观察《发现摩西》、了解创作背景，再读一读《出埃及记》中的记载。从一幅圣经名画开始，认识画中的人，也读懂他们的故事。中英文均可，免费，无需注册。
 
 [打开《发现摩西》](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#art/moses)
 
 ## 中文：从阅读开始
 
-想找一个简单的中英文圣经阅读工具，可以试试初见社区版。选一章慢慢读，用设备自带的声音听一听，或做一节有理解题的短课。还有 4 件圣经主题画作，附作品出处和经文关联。不用注册，收藏保存在当前浏览器。
+初见是一款融合圣经名画赏析与经文阅读的中英文学习工具。通过画中的人物、细节和创作背景，认识相关圣经故事，再回到经文中深入阅读。让喜欢艺术的人找到了解圣经的起点，也让读经的人多一种欣赏与理解故事的方式。社区版提供4件画作、5节入门短课、设备朗读与本机收藏，免费使用，无需注册。
 
 [开始阅读《约翰福音》第 1 章](https://vvchen1981-del.github.io/first-light-community/?lang=zh-Hans#read/JHN/1)
 
